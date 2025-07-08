@@ -1,7 +1,7 @@
-### IntelliJ IDEA ###
+### IntelliJ ###
+.idea/
+*.iml
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
 
 ### Eclipse ###
 .apt_generated
@@ -12,8 +12,6 @@ out/
 .springBeans
 .sts4-cache
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
 ### NetBeans ###
 /nbproject/private/
@@ -28,14 +26,9 @@ bin/
 ### Mac OS ###
 .DS_Store
 
-# Ignore IntelliJ files
-.idea/
-*.iml
-out/
-
 # Ignore compiled files
 *.class
 
-# Ignore environment-specific files
+# Environment files
 .env
 db.properties
